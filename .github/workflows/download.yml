@@ -1,6 +1,6 @@
 name: Download Process
 on:
-  gollum
+  workflow_dispatch
 jobs:
   downloading:
     runs-on: ubuntu-latest
